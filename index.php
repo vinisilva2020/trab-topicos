@@ -21,7 +21,7 @@ $resultado = mysqli_query($conexao, $sql);
             <div class="row justify-content-sm-center h-100">
                 <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
                     <div class="text-center my-5">
-                        <img src="usuarioO.jpg" alt="logo" width="100">
+                        <img src="usuario.png" alt="logo" width="100">
                     </div>
                     <?php
             if (isset($_SESSION['msg']) and $_SESSION['msg'] != "" and isset($_SESSION['status']) and $_SESSION['status'] != "") {
